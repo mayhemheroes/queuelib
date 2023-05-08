@@ -1,0 +1,6 @@
+project: queuelib
+target: lifodiskqueue
+duration: 90
+
+cmds:
+    - cmd: /queuelib/fuzz/fuzz_targets/lifodiskqueue.py

@@ -1,0 +1,6 @@
+project: queuelib
+target: fifodiskqueue
+duration: 90
+
+cmds:
+    - cmd: /queuelib/fuzz/fuzz_targets/fifodiskqueue.py

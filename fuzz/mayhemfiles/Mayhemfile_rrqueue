@@ -1,0 +1,6 @@
+project: queuelib
+target: rrqueue
+duration: 90
+
+cmds:
+    - cmd: /queuelib/fuzz/fuzz_targets/rrqueue.py

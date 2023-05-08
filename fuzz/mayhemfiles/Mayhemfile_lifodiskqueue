@@ -3,4 +3,5 @@ target: lifodiskqueue
 duration: 90
 
 cmds:
-    - cmd: /queuelib/fuzz/fuzz_targets/lifodiskqueue.py
+  - cmd: /queuelib/fuzz/fuzz_targets/lifodiskqueue.py
+    libfuzzer: true

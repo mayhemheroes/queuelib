@@ -3,4 +3,5 @@ target: priorityqueue
 duration: 90
 
 cmds:
-    - cmd: /queuelib/fuzz/fuzz_targets/priorityqueue.py
+  - cmd: /queuelib/fuzz/fuzz_targets/priorityqueue.py
+    libfuzzer: true
